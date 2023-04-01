@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PomodoroTimer</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <string name="enter_time">Enter time</string>
+    <string name="timer_is_working">Timer is working!</string>
+    <string name="timer_is_stop">Timer is stop!</string>
+    <string name="resume">Resume</string>
+
+</resources>

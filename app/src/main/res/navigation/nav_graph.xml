@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/timerSettingsFragment">
+    <fragment
+        android:id="@+id/timerSettingsFragment"
+        android:name="com.example.pomodorotimer.features.settings.TimerSettingsFragment"
+        android:label="Timer settings"
+        tools:layout="@layout/fragment_timer_settings" >
+        <action
+            android:id="@+id/action_timerSettingsFragment_to_timerFragment"
+            app:destination="@id/timerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="com.example.pomodorotimer.features.timer.presentation.TimerFragment"
+        android:label="Timer"
+        tools:layout="@layout/fragment_timer" />
+</navigation>
